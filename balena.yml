@@ -1,7 +1,7 @@
-name: browser
+name: browser-Japanese
 description: >-
   a hardware accelerated web browser to present internal and external URLs on a
-  connected display
+  connected display, with support of Japanese Characters
 
 post-provisioning: >-
   [![balena](https://github.com/balena-labs-projects/browser/actions/workflows/balena.yml/badge.svg)](https://github.com/balena-labs-projects/browser/actions/workflows/balena.yml)
@@ -38,11 +38,11 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balena-labs-projects/browser'
+      url: "https://github.com/HMJBS/browser-japanese"
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/balena-labs-projects/browser/master/logo.png'
+      url: "https://raw.githubusercontent.com/HMJBS/browser-japanese/master/logo.png"
 data:
   defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
